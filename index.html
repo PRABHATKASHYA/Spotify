@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,900&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="logo1.png" alt="logo">
+            </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span  class="fa  fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span  class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span  class="fa  fas fa-book"></span>
+                        <span>Your library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span  class="fa fas fa-plus-square"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span  class="fa  fas fa-heart"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-----------------------------------------------main container--------------------------------------------------------->
+    <div class="maincontainer">
+        <div class="topbar">
+            <div class="pre-next-button">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+            <div class="bar">
+                <ul>
+                    <li>
+                        <a href="#">Premium</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Download</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Log In</button>
+            </div>
+        </div>
+
+
+        <div class="spotify-playlists">
+            <h2>Spotify Playlists</h2>
+            <div class="lists">
+                <div class="items">
+                    <img src="covers/image.jpg">
+                    <div class="play">
+                        <span id="0" class="fa songItemsplay songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Saude Bazi</h4>
+                    <p>Artists: Javed Ali, Anupam Amod - Released: 2010</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image1.jpg">
+                    <div class="play">
+                        <span id="1" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tum Se Hi</h4>
+                    <p>Artist: Mohit Chauhan - Released: 2007 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image2.jpg">
+                    <div class="play">
+                        <span id="2" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Phela Pyaar</h4>
+                    <p>Artists: Armaan Malik - Released: 2019</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image3.jpg">
+                    <div class="play">
+                        <span id="3" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4> Tum Hi Ho</h4>
+                    <p> Artists:Arijit Singh - Released: 2013 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image4.jpg">
+                    <div class="play">
+                        <span id="4" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Kabhii Tumhe</h4>
+                    <p>Artists: Darshan Raval and Javed-Mohsin - Released: 2021</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image5.jpg">
+                    <div class="play">
+                        <span id="5" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Hai Rama</h4>
+                    <p> Artist: A. R. Rahman - Released:1995</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image6.jpg">
+                    <div class="play">
+                        <span id="6" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Labon Ko</h4>
+                    <p> Artist: KK - Released: 2007</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image7.jpg">
+                    <div class="play">
+                        <span id="7" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tu Jo Mila</h4>
+                    <p> Artist: KK - Released: 2015</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image8.jpg">
+                    <div class="play">
+                        <span id="8" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Jee le Zara</h4>
+                    <p>Artist: Vishal Dadlani - Released: 2012</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image9.jpg">
+                    <div class="play">
+                        <span id="9" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tu Jaane Na</h4>
+                    <p> Artist: Atif - Released: 2009</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image10.jpg">
+                    <div class="play">
+                        <span id="10" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Pehli Nazar Mein</h4>
+                    <p> Artist: Atif Aslam - Released: 2008</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image11.jpg">
+                    <div class="play">
+                        <span id="11" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Maahi Ve</h4>
+                    <p>Artist: A. R. Rahman - Released: 2014</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image12.jpg">
+                    <div class="play">
+                        <span id="12" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Lover</h4>
+                    <p>Artist: Taylor Swift - Released: 2019 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image13.jpg">
+                    <div class="play">
+                        <span id="13" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tu Mujhe Soch Kabhi</h4>
+                    <p>Artist: KK - Released: 2008 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image14.jpg">
+                    <div class="play">
+                        <span id="14" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Bol Do Na Zara</h4>
+                    <p>Artist: Armaan Malik - Released: 2016 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image15.jpg">
+                    <div class="play">
+                        <span id="15" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tera Mera Rishta </h4>
+                    <p> Artist: Mustafa Zahid - Released: 2007</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image16.jpg">
+                    <div class="play">
+                        <span id="16" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Te Amo</h4>
+                    <p> Artist: Sunidhi Chauhan, Ash king - Released: 2011</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image17.jpg">
+                    <div class="play">
+                        <span id="17" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>With You</h4>
+                    <p>Artist: AP Dhillon - Released: 2020</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image18.jpg">
+                    <div class="play">
+                        <span id="18" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Galliyan Returns</h4>
+                    <p>Artist: Ankit Tiwari, Manoj Muntasir - Released: 2022 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image19.jpg">
+                    <div class="play">
+                        <span id="19" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Humraah</h4>
+                    <p>Artist: Sachet Tandon- Released: 2020 </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image20.jpg">
+                    <div class="play">
+                        <span id="20" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>I Love You</h4>
+                    <p> Artist: Ash King, Clinton Cerejo - Released: 2011</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image21.jpg">
+                    <div class="play">
+                        <span id="21" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Tum ho</h4>
+                    <p>Artists: Mohit Chauhan, Suzanne D'Mello - Released: 2011
+                    </p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image22.jpg">
+                    <div class="play">
+                        <span id="22" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Mere Liye</h4>
+                    <p>Artists: Akhil Sachdeva - Released: 2021</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image23.jpg">
+                    <div class="play">
+                        <span id="23" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Jab Tak</h4>
+                    <p>Artists: Armaan Malik - Released: 2016</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image24.jpg">
+                    <div class="play">
+                        <span id="24" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Challa</h4>
+                    <p> Artist: Rabbi Shergill - Released: 2008</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image25.jpg">
+                    <div class="play">
+                        <span id="25" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Saans</h4>
+                    <p>Artists: Shreya Ghoshal, Mohit Chauhan - Released: 2012</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image26.jpg">
+                    <div class="play">
+                        <span id="26" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Hamsafar</h4>
+                    <p>Artists: Akhil Sachdeva, Mansheel Gujral - Released: 2018</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image27.jpg">
+                    <div class="play">
+                        <span id="27" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Samjhawan</h4>
+                    <p>Artists: Arijit Singh, Shreya Ghoshal - Released: 2012</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image28.jpg">
+                    <div class="play">
+                        <span id="28" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Ambarsariya</h4>
+                    <p>Artist: Sona Mohapatra - Released: 2013</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image29.jpg">
+                    <div class="play">
+                        <span id="29" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Dil Diyan Gallan</h4>
+                    <p>Artist: Atif Aslam - Released: 2017</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image30.jpg">
+                    <div class="play">
+                        <span id="30" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Dil Royi Jaye</h4>
+                    <p>Artist: Arijit Singh - Released: 2019</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image31.jpg">
+                    <div class="play">
+                        <span id="31" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Afreen Afreen</h4>
+                    <p>Artists: Rahat Fateh Ali Khan, Momina Mustehsan - Released: 2016</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image32.jpg">
+                    <div class="play">
+                        <span id="32" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Shayad</h4>
+                    <p>Artists: Arijit Singh, Pritam Chakraborty, Madhubanti Bagchi - Released: 2019</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image33.jpg">
+                    <div class="play">
+                        <span id="33" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Aayat</h4>
+                    <p>Artists: Arijit Singh - Released: 2015</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image34.jpg">
+                    <div class="play">
+                        <span id="34" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Shiddat-Title Track</h4>
+                    <p>Artist: Manan Bhardwaj - Released: 2021</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image35.webp">
+                    <div class="play">
+                        <span id="35" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Jug Jug Jeeve</h4>
+                    <p>Artists: Sachet-Parampara, Sachin-Jigar, Sachet Tandon - Released: 2021</p>
+                </div>
+
+                <div class="items">
+                    <img src="covers/image36.jpg">
+                    <div class="play">
+                        <span id="36" class="fa songItemsplay fa-play"></span>
+                    </div>
+                    <h4>Jannatein Kahan</h4>
+                    <p>Artist: KK - Artist: KK</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------Footer--------------------------------------------------------->
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-backward" id="backward"></i> <!-- Backward button -->
+            <i class="fas fa-2x fa-play" id="masterPlay"></i> <!-- Play button -->
+            <i class="fas fa-2x fa-forward" id="forward"></i> <!-- Forward button -->
+        </div>
+        <div class="songinfo">
+            <span id="songtitle"></span>
+            <span id="artistName"></span>
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif" width="55px" alt="" id="gif">
+        </div>
+        <div id="time">
+            <span id="currentDuration">00:00</span> / <span id="totalDuration">00:00</span>
+          </div>
+        <div class="volumeControl">
+            <i id="volumeIcon" class="fas fa-volume-up"></i>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
